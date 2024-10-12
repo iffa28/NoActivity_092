@@ -1,10 +1,10 @@
 package com.example.noactivity_092
 
-fun ConditionalStatement() {
+fun conditionalStatement() {
     println("===Conditional Expression ===")
     //if-else
     val number = 10
-    if (number > 0) {
+    if (number > 1) {
         println("Positive Number")
     } else {
         println("Negative Number")
@@ -23,8 +23,17 @@ fun ConditionalStatement() {
         else -> println("Invalid Day")
     }
 
+    //Try - Catch
+    val value = "10"
+    try {
+        val result = value.toInt()
+        println("Result: $result")
+    } catch (e: NumberFormatException) {
+        println("Invalid Number")
+    }
+
 }
 
 fun main() {
-    ConditionalStatement()
+    conditionalStatement()
 }
