@@ -9,6 +9,7 @@ fun ConditionalStatement() {
     } else {
         println("Negative Number")
     }
+
 }
 
 fun main() {
