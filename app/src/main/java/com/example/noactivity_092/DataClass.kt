@@ -12,5 +12,10 @@ data class DataClass(
      val data2 = DataClass(1, "zahra@gmail.com")
      println(data == data2)  //false
 
+     //fungsi Copy
+     val data3 = data.copy()
+     println(data3)
+
+
 
  }
