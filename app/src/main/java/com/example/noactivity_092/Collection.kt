@@ -83,6 +83,10 @@ fun ContohMap() {
     //mengubah data di dalam map mutable
     shape["Square"] = 5
     println(shape)
+
+    //Map read-Only
+    val shapesLocked: Map<String, Int> = shape
+    println(shapesLocked)
 }
 
 
