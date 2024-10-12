@@ -54,4 +54,5 @@ fun ContohSet() {
 
 fun main(){
     ContohList()
+    ContohSet()
 }
