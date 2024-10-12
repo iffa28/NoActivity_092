@@ -16,6 +16,8 @@ data class DataClass(
      val data3 = data.copy()
      println(data3)
 
-
+     //fungsi copy dengan perubahan
+     val data4 = data.copy(email = "zara@gmail.com")
+     println(data4)
 
  }
