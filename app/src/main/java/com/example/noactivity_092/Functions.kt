@@ -10,9 +10,29 @@ fun withParameter(name: String) {
     println("Hello, $name!")
 }
 
-fun withNameArgument(name: String, age: Int) {
+fun withNamedArgument(name: String, age: Int) {
     println()
     println("== withNamedArgument ==")
     println("Hello, $name! You are $age years old.")
 }
+
+fun withDefaultParameter(name: String = "Iffa", age: Int) {
+    println()
+    println("= withDefaultParameter==")
+    println("Hello, $name! You are $age years old.")
+}
+
+fun withReturn(panjang : Int, lebar : Int): Int {
+    return panjang * lebar
+}
+
+fun main() {
+    withoutParameter()
+    withParameter("John")
+    withNamedArgument(name = "John", age = 30)
+    withDefaultParameter(age = 25)
+}
+
+
+
 
